@@ -1,3 +1,9 @@
+/*
+index.js 
+Author: Cindy Diaz
+Webiste: Favourite People Website (http://midterm-cindydiaz.azurewebsites.net/)
+This file includes all the routing for our website, handle get and post request
+ */
 var express = require('express');
 var router = express.Router();
 
@@ -16,7 +22,6 @@ router.get('/contact', function (req, res, next) {
 });
 /* POST contac form*/
 router.post('/send', function (req, res, next) {
-            res.redirect('/');
-  
+    res.redirect('/'); //Handle post request for now redirecting to home page
 });
 module.exports = router;

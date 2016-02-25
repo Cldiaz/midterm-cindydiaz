@@ -1,5 +1,10 @@
 #!/usr/bin/env node
-
+/*
+server.js 
+Author: Cindy Diaz
+Webiste: Favourite People Website (http://midterm-cindydiaz.azurewebsites.net/)
+This file set up our server
+ */
 /**
  * Module dependencies.
  */

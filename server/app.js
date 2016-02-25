@@ -1,3 +1,9 @@
+/*
+app.js
+Author: Cindy Diaz
+Webiste: Favourite People Website (http://midterm-cindydiaz.azurewebsites.net/)
+This file set up our environment, provides the routing path, and makes public folder part of our path
+ */
 var express = require('express');
 var path = require('path');
 var favicon = require('serve-favicon');

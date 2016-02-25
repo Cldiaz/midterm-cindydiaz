@@ -1,3 +1,9 @@
+/*
+.bowerrc 
+Author: Cindy Diaz
+Webiste: Favourite People Website (http://midterm-cindydiaz.azurewebsites.net/)
+This file includes where bowe files will be installed
+ */
 {
     "directory": "./public/Scripts/lib"
 }
