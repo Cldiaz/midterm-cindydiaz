@@ -7,7 +7,7 @@ router.get('/', function(req, res, next) {
 });
 /* GET People Page. */
 router.get('/people', function (req, res, next) {
-    res.render('index', { title: 'People' });
+    res.render('people', { title: 'People' });
 });
 
 /* GET contact page. */

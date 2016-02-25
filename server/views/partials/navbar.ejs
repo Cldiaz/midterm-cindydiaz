@@ -1,4 +1,4 @@
-<nav class="navbar navbar-default">
+<nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
@@ -15,17 +15,17 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
         <% if (title === "Landing"){ %>
-            <li class="active"><a href="/">Landing Page</a></li>
-            <li><a href="/people">People Page</a></li>   
-            <li><a href="/contact">Contact me</a></li>
+            <li class="active"><a href="/"><i class="fa fa-play"></i> Landing Page</a></li>
+            <li><a href="/people"><i class="fa fa-users"></i> People Page</a></li>   
+            <li><a href="/contact"><i class="fa fa-envelope"></i> Contact me</a></li>
         <% } else if (title == "People") { %> 
-            <li ><a href="/">Landing Page</a></li>
-            <li class="active"><a href="/people">People Page</a></li>   
-            <li><a href="/contact">Contact me</a></li>
+            <li ><a href="/"><i class="fa fa-play"></i> Landing Page</a></li>
+            <li class="active"><a href="/people"><i class="fa fa-users"></i> People Page</a></li>   
+            <li><a href="/contact"><i class="fa fa-envelope"></i> Contact me</a></li>
         <% } else if (title == "Contact") { %> 
-             <li ><a href="/">Landing Page</a></li>
-            <li><a href="/people">People Page</a></li>   
-            <li class="active"><a href="/contact">Contact me</a></li>
+             <li ><a href="/"><i class="fa fa-play"></i> Landing Page</a></li>
+            <li><a href="/people"><i class="fa fa-users"></i> People Page</a></li>   
+            <li class="active"><a href="/contact"><i class="fa fa-envelope"></i> Contact me</a></li>
         <% }%>          
       </ul>
         
