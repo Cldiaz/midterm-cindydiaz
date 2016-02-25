@@ -1,0 +1,22 @@
+{
+  "name": "midterm-cindydiaz",
+  "description": "Midterm for COMP2068 - Cindy Diaz",
+  "main": "",
+  "authors": [
+    "Cindy Diaz"
+  ],
+  "license": "MIT",
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "./public/Scripts/lib",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6"
+  }
+}
