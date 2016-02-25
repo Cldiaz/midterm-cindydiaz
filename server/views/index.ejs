@@ -5,13 +5,9 @@ Webiste: Favourite People Website (http://midterm-cindydiaz.azurewebsites.net/)
 This file is our home page, includes title and image
 -->
 <% include partials/header.ejs %>
-<% include partials/navbar.ejs %>
+<% include partials/navbar.ejs %>   
+<% include partials/banner.ejs %>  
     <main class="container">
-        <img src="Assets/banner.jpg"> 
-        <div class="jumbotron">
-            <h1>My	Favourite	People</h1>
-            <p>by Cindy Diaz</p>
-            <p>Please go to <a href="/people" >'People'</a> Page to see my selection</p>
-        </div>
+      <h1 class="text-center"> Go to <a href="/people">People Page</a> to view my selection
     </main>
 <% include partials/footer.ejs %>

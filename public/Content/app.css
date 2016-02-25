@@ -4,3 +4,38 @@ Author: Cindy Diaz
 Webiste: Favourite People Website (http://midterm-cindydiaz.azurewebsites.net/)
 This file includes custom css for our website
  */
+ body{
+     font-family: 'Source Sans Pro', sans-serif;
+ }
+ .image-bg-fluid-height{
+    text-align: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover
+ }
+ .image-bg-fluid-height {
+	background: url('/Assets/banner.jpg') no-repeat center center scroll;
+    height: 439px;
+    padding: 100px 0;
+}
+hr{
+    max-width: 50px;
+    border-color: white;
+    border-width: 3px;
+}
+a:link{
+    text-decoration: none;
+}
+  
+ /* Text in Banner*/
+.header-top-page{
+    margin: 0 auto;
+    color: whitesmoke;
+    font-size: 5em;
+}
+.sub-header-top-page{
+    margin: 0 auto;
+    color: whitesmoke;
+    font-size: 3em;
+}
