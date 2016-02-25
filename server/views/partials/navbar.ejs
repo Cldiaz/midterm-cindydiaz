@@ -14,36 +14,17 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
-        <% if (title === "Home"){ %>
-            <li class="active"><a href="/">Home</a></li>
-            <li><a href="/about">About Me</a></li>   
-            <li><a href="/projects">Projects</a></li>  
-            <li><a href="/services">Services</a></li>
+        <% if (title === "Landing"){ %>
+            <li class="active"><a href="/">Landing Page</a></li>
+            <li><a href="/people">People Page</a></li>   
             <li><a href="/contact">Contact me</a></li>
-        <% } else if (title == "About") { %> 
-            <li ><a href="/">Home</a></li>
-            <li class="active"><a href="/about">About Me</a></li>   
-            <li><a href="/projects">Projects</a></li>  
-            <li><a href="/services">Services</a></li>
-            <li><a href="/contact">Contact me</a></li>
-        <% } else if (title == "Projects") { %> 
-            <li ><a href="/">Home</a></li>
-            <li ><a href="/about">About Me</a></li>   
-            <li class="active"><a href="/products">Projects</a></li>  
-            <li><a href="/services">Services</a></li>
-            <li><a href="/contact">Contact me</a></li>
-        <% } else if (title == "Services") { %> 
- 
-             <li ><a href="/">Home</a></li>
-            <li><a href="/about">About Me</a></li>   
-            <li><a href="/projects">Projects</a></li>  
-            <li class="active"><a href="/services">Services</a></li>
+        <% } else if (title == "People") { %> 
+            <li ><a href="/">Landing Page</a></li>
+            <li class="active"><a href="/people">People Page</a></li>   
             <li><a href="/contact">Contact me</a></li>
         <% } else if (title == "Contact") { %> 
-             <li ><a href="/">Home</a></li>
-            <li><a href="/about">About Me</a></li>   
-            <li><a href="/projects">Projects</a></li>  
-            <li ><a href="/services">Services</a></li>
+             <li ><a href="/">Landing Page</a></li>
+            <li><a href="/people">People Page</a></li>   
             <li class="active"><a href="/contact">Contact me</a></li>
         <% }%>          
       </ul>
