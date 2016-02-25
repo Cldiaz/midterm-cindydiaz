@@ -14,4 +14,9 @@ router.get('/people', function (req, res, next) {
 router.get('/contact', function (req, res, next) {
     res.render('contact', { title: 'Contact' });
 });
+/* POST contac form*/
+router.post('/send', function (req, res, next) {
+            res.redirect('/');
+  
+});
 module.exports = router;
